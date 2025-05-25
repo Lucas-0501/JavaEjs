@@ -1,4 +1,4 @@
-package Practica1_ej1;
+package Practica1.Practica1_ej1;
 
 public class Socio {
     private String nombre;

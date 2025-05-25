@@ -1,4 +1,4 @@
-package Practica1_ej1;
+package Practica1.Practica1_ej1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
