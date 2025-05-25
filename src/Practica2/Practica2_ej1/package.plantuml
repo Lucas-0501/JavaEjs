@@ -1,0 +1,51 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class Catalogo {
+  + Catalogo(): 
+  - dvds: List<DVD>
+  + cantidadTengo(): int
+  + listarTodos(): void
+  + listarDuracionMenorA(int): void
+  + agregarDVD(DVD): void
+  + eliminarDVD(String): void
+  + listarOrdenadosPorTitulo(): void
+  + listarTengo(): void
+  + modificarDVD(String, DVD): void
+  + cantidadTotal(): int
+}
+class DVD {
+  + DVD(String, String, int, boolean, String): 
+  - duracion: int
+  - comentario: String
+  - titulo: String
+  - tengo: boolean
+  - genero: String
+  - validarTitulo(String): void
+  - validarGenero(String): void
+  - validarDuracion(int): void
+  + getGenero(): String
+  + setGenero(String): void
+  - validarComentario(String): void
+  + getDuracion(): int
+  + getTitulo(): String
+  + getComentario(): String
+  + setTitulo(String): void
+  + isTengo(): boolean
+  + setTengo(boolean): void
+  + mostrarDatos(): void
+  + setDuracion(int): void
+  + setComentario(String): void
+}
+class Main {
+  + Main(): 
+  + main(String[]): void
+}
+
+Catalogo "1" *-[#595959,plain]-> "dvds\n*" DVD      
+Main      -[#595959,dashed]->  Catalogo : "«create»"
+Main      -[#595959,dashed]->  DVD      : "«create»"
+@enduml
