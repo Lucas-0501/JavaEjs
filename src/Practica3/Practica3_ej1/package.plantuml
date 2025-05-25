@@ -1,0 +1,26 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class Estudiante {
+  - matricula: String
+  + mostrarMatricula(): void
+  + mostrarDatos(): void
+}
+class Main {
+  + main(String[]): void
+}
+class Persona {
+  # nombre: String
+  - edad: int
+  + direccion: String
+  # mostrarEdad(): void
+  + mostrarNombre(): void
+  - mostrarDireccion(): void
+}
+
+Estudiante  -[#000082,plain]-^  Persona    
+Main        -[#595959,dashed]->  Estudiante : "«create»"
+@enduml
