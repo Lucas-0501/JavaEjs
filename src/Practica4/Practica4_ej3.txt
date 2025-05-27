@@ -1,0 +1,5 @@
+a)Si una clase contiene al menos un método abstracto es una clase abstracta.
+b)Las clases a partir de las cuales pueden instanciarse objetos se llaman concretas.
+c)El polimorfismo implica el uso de una variable de superclase para invocar métodos en objetos de la superclase y subclase.
+d)Los métodos abstractos se declaran utilizando la palabra clave abstract.
+e)En una interfaz no se pueden declarar variables de instancia.

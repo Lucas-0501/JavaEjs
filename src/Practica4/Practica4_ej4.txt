@@ -1,0 +1,20 @@
+1. Todos los métodos de una clase abstracta deben ser declarados como métodos abstract.
+➡ Falso
+
+ 2. Una clase abstracta debe tener por lo menos un método abstracto.
+➡ Falso
+
+3. Una clase se hace abstracta declarándola como abstract.
+➡ Verdadero
+
+ 4. Si una superclase declara un método como abstract, una subclase debe implementar ese método para convertirse en clase concreta.
+➡ Verdadero
+
+ 5. Una interfaz es un conjunto de declaraciones de constantes y métodos abstractos.
+➡ Verdadero
+
+6. Una clase puede implementar una sola interfaz.
+➡ Falso
+
+7. Una interfaz puede ser implementada por muchas clases.
+➡ Verdadero

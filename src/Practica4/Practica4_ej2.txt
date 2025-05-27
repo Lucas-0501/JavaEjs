@@ -1,0 +1,21 @@
+El programa va a imprimir lo siguiente:
+
+Rectangulo color Rojo
+El area del cuadrado es 16
+
+
+
+Explicación:
+Creación del rectángulo:
+
+-Se crea un objeto Rectangulo con altura 10 y base 5.
+-Se llama al método pintarObjeto(rect, "Rojo"), que invoca el método pintar del objeto Rectangulo. Esto imprime:
+Rectangulo color Rojo.
+
+Creación del cuadrado:
+-Se crea un objeto Cuadrado con base y altura iguales a 4.
+-Se llama al método areaObjeto(cuad), que invoca el método area del objeto Cuadrado. El área se calcula como 4 * 4 = 16.
+Finalmente, se imprime: El area del cuadrado es 16.
+
+ambos usan la case abstracta Poligono
+
