@@ -1,4 +1,4 @@
-package ArbolBinario;
+package EjerciciosEnClase.ArbolBinario;
 
 // Clase Nodo que representa cada nodo del árbol
 class Nodo {
