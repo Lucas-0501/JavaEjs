@@ -1,0 +1,4 @@
+Argentina,45.38,383.1
+Uruguay,3.46,65.4
+Brasil,213.99,1493.5
+Paraguay,7.13,38.1

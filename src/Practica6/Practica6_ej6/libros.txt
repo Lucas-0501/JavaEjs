@@ -1,0 +1,3 @@
+Novela,Dune,Frank Herbert,Editorial A,1965,Tapas duras,123456789,5,Ciencia ficción
+Tecnico,Introducción a la Ingeniería,John Doe,Editorial B,2020,Edición económica,987654321,2,Ingeniería
+Tecnico,Harry Potter,jkrowling,sdsa,2000,ads,dsa,200,Juveniles
