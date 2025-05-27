@@ -1,0 +1,31 @@
+1er Ejemplo
+
+Qué hace:
+
+Guarda el estado como un número (0, 1, 2, 3).
+
+Cada vez que llamás pull(), usa un if-else para ver el estado y pasar al siguiente.
+
+Ciclo: apagado → bajo → medio → alto → apagado → ...
+
+Problemas:
+
+Si querés agregar más estados, hay que modificar y hacer crecer el if-else.
+
+Si cada estado tuviera un comportamiento distinto (no solo cambiar de nombre), el método pull() se llenaría de lógica.
+
+El código se vuelve difícil de mantener.
+
+-----------------------------------------------------------------------------------------------------------------------
+2do Ejemplo
+Guarda el estado como un objeto (Off, Low, Medium, High), no como número.
+
+Cada clase de estado sabe qué hacer cuando se llama pull(): muestra su mensaje y cambia el estado en el wrapper.
+
+CeilingFanPullChain solo mantiene una referencia al estado actual, no sabe los detalles.
+
+Mejoras del State Pattern:
+Divide responsabilidades → cada clase maneja solo su estado.
+Hace el código más fácil de extender → si agregás nuevos estados, no tocás un if central.
+Elimina dependencias → el objeto principal no tiene que saber cómo manejar cada estado.
+Hace más limpio el código → cada estado tiene su comportamiento encapsulado.
