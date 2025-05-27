@@ -1,4 +1,4 @@
-# TPs ProgII.2025
+# TPs Programacion II Grupo Apatricio
 Este repositorio contiene los archivos correspondientes a los ejercicios de las prácticas realizadas en el curso de programación en Java. Cada práctica aborda un tema principal relacionado con conceptos fundamentales de la programación orientada a objetos.
 
 ## Contenido
