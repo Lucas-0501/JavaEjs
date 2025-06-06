@@ -1,3 +1,4 @@
+// Clase Estudiante
 package Practica3.Practica3_ej1;
 
 public class Estudiante extends Persona {
@@ -8,14 +9,9 @@ public class Estudiante extends Persona {
         this.matricula = matricula;
     }
 
-    public void mostrarMatricula() {
-        System.out.println("Matrícula: " + matricula);
-    }
-
+    @Override
     public void mostrarDatos() {
-        mostrarNombre(); // Método public heredado
-        mostrarEdad(); // Método protected heredado
-        //mostrarDireccion(); // Método private no se puede acceder
-        mostrarMatricula();
+        super.mostrarDatos(); // Llama al método de la clase base
+        System.out.println("Matrícula: " + matricula);
     }
 }
